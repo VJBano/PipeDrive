@@ -38,7 +38,7 @@ Before running this application, make sure you have the following:
 #### Clone repository
 
 ```bash
-git clone
+git clone git@github.com:VJBano/PipeDrive.git
 ```
 
 #### Install Dependencies
