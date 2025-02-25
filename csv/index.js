@@ -35,12 +35,11 @@ const csvGenerator = (deals) => {
 
   let existingDeals = readExistingCSV();
   const existingDealIds = new Set(
-    existingDeals.map((deal) => String(deal.deal_id))
+    existingDeals.map((deal) => String(deal.Deal_ID))
   );
 
-  // Filter out only truly new deals
   const uniqueDeals = deals.filter(
-    (deal) => !existingDealIds.has(String(deal.deal_id))
+    (deal) => !existingDealIds.has(String(deal.Deal_ID))
   );
 
   if (uniqueDeals.length === 0) {
@@ -48,8 +47,7 @@ const csvGenerator = (deals) => {
     return;
   }
 
-  // Convert unique deals to CSV format
-  const csvData = stringify(uniqueDeals, { columns: CSV_HEADERS });
+  const csvData = stringify(uniqueDeals, { header: false });
 
   if (!isFileExist(CSV_FILE)) {
     fs.writeFileSync(

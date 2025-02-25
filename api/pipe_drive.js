@@ -1,7 +1,4 @@
-import dotenv from "dotenv";
 import PipedriveInstance from "./config.js";
-
-dotenv.config();
 
 const PipeDriveAPI = {
   getAllPipelineStages: async () => {
@@ -14,7 +11,7 @@ const PipeDriveAPI = {
 
       return data;
     } catch (error) {
-      throw new error(`get Pipeline Stages: ${error} `);
+      throw new Error(`get Pipeline Stages: ${error.message}`);
     }
   },
   getActiveDeals: async () => {
@@ -27,7 +24,7 @@ const PipeDriveAPI = {
 
       return data;
     } catch (error) {
-      throw new error(`get Active Deals: ${error} `);
+      throw new Error(`get Active Deals: ${error.message}`);
     }
   },
 };
