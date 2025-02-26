@@ -1,0 +1,82 @@
+{
+  "timestamp": 1740577741014,
+  "deals": [
+    {
+      "Deal_ID": 1,
+      "Deal_Name": "[Sample] iTable",
+      "Pipeline_Stage": "Demo Scheduled",
+      "Owner": "Token",
+      "Organization_Name": "[Sample] iTable",
+      "Customer_Email": "otto.miller@itablee.eu",
+      "Deal_Value": "₱7,000.00",
+      "Created_Date": "2025-02-21 13:45:42",
+      "Last_Updated_Date": "2025-02-21 13:45:43"
+    },
+    {
+      "Deal_ID": 2,
+      "Deal_Name": "[Sample] Benjamin Leon",
+      "Pipeline_Stage": "Qualified",
+      "Owner": "Token",
+      "Organization_Name": "No Organization",
+      "Customer_Email": "benjamin.leon@gmial.com",
+      "Deal_Value": "₱10,000.00",
+      "Created_Date": "2025-02-21 13:45:42",
+      "Last_Updated_Date": "2025-02-21 13:45:43"
+    },
+    {
+      "Deal_ID": 3,
+      "Deal_Name": "[Sample] Phyllis & Cie",
+      "Pipeline_Stage": "Proposal Made",
+      "Owner": "Token",
+      "Organization_Name": "[Sample] Phyllis & Cie",
+      "Customer_Email": "phyllis.yang@gmial.com",
+      "Deal_Value": "₱16,000.00",
+      "Created_Date": "2025-02-21 13:45:42",
+      "Last_Updated_Date": "2025-02-21 13:45:43"
+    },
+    {
+      "Deal_ID": 4,
+      "Deal_Name": "[Sample] Tony Turner",
+      "Pipeline_Stage": "Contact Made",
+      "Owner": "Token",
+      "Organization_Name": "[Sample] MoveEr",
+      "Customer_Email": "tony.turner@moveer.com",
+      "Deal_Value": "₱30,000.00",
+      "Created_Date": "2025-02-21 13:45:42",
+      "Last_Updated_Date": "2025-02-21 13:45:43"
+    },
+    {
+      "Deal_ID": 5,
+      "Deal_Name": "[Sample] EmpowerMove",
+      "Pipeline_Stage": "Qualified",
+      "Owner": "Token",
+      "Organization_Name": "[Sample] EmpowerMove",
+      "Customer_Email": "gloria.quinn@empowermmove.com",
+      "Deal_Value": "₱8,000.00",
+      "Created_Date": "2025-02-21 13:45:42",
+      "Last_Updated_Date": "2025-02-21 13:45:43"
+    },
+    {
+      "Deal_ID": 6,
+      "Deal_Name": "[Sample] Damone",
+      "Pipeline_Stage": "Demo Scheduled",
+      "Owner": "Token",
+      "Organization_Name": "No Organization",
+      "Customer_Email": "githa.watson@odamoneet.com",
+      "Deal_Value": "₱15,000.00",
+      "Created_Date": "2025-02-21 13:45:42",
+      "Last_Updated_Date": "2025-02-21 13:45:43"
+    },
+    {
+      "Deal_ID": 7,
+      "Deal_Name": "[Sample] SoRock",
+      "Pipeline_Stage": "Negotiations Started",
+      "Owner": "Token",
+      "Organization_Name": "No Organization",
+      "Customer_Email": "kanushi.barnes@gmial.com",
+      "Deal_Value": "₱31,000.00",
+      "Created_Date": "2025-02-21 13:45:42",
+      "Last_Updated_Date": "2025-02-21 13:45:43"
+    }
+  ]
+}
