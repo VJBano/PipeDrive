@@ -15,7 +15,8 @@
   "dependencies": {
     "axios": "^1.7.9",
     "csv": "^6.3.11",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "googleapis": "^144.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.9",
